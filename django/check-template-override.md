@@ -48,7 +48,7 @@ def template_is_overridden(
     )
 True
 >>> template_is_overridden(
-        "wagtail/admin/_do_not_touch.html",
+        "wagtailadmin/includes/_do_not_touch.html",
         "wagtail/admin/templates",
     )
 False
